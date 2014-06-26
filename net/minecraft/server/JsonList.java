@@ -10,14 +10,14 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 
-import net.minecraft.util.com.google.common.base.Charsets;
-import net.minecraft.util.com.google.common.collect.Lists;
-import net.minecraft.util.com.google.common.collect.Maps;
-import net.minecraft.util.com.google.common.io.Files;
-import net.minecraft.util.com.google.gson.Gson;
-import net.minecraft.util.com.google.gson.GsonBuilder;
-import net.minecraft.util.com.google.gson.JsonObject;
-import net.minecraft.util.org.apache.commons.io.IOUtils;
+import com.google.common.base.Charsets;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import com.google.common.io.Files;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

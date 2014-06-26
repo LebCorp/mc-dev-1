@@ -3,8 +3,8 @@ package net.minecraft.server;
 import java.text.DecimalFormat;
 import java.util.Random;
 
-import net.minecraft.util.com.google.common.collect.HashMultimap;
-import net.minecraft.util.com.google.common.collect.Multimap;
+import com.google.common.collect.HashMultimap;
+import com.google.common.collect.Multimap;
 
 public final class ItemStack {
 

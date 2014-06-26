@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.Map.Entry;
 
-import net.minecraft.util.com.google.common.collect.Maps;
+import com.google.common.collect.Maps;
 
 public class MobEffectList {
 

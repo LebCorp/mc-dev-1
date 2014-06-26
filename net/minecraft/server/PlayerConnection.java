@@ -9,11 +9,11 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.concurrent.Callable;
 
-import net.minecraft.util.com.google.common.base.Charsets;
-import net.minecraft.util.com.google.common.collect.Lists;
-import net.minecraft.util.io.netty.buffer.Unpooled;
-import net.minecraft.util.io.netty.util.concurrent.GenericFutureListener;
-import net.minecraft.util.org.apache.commons.lang3.StringUtils;
+import com.google.common.base.Charsets;
+import com.google.common.collect.Lists;
+import io.netty.buffer.Unpooled;
+import io.netty.util.concurrent.GenericFutureListener;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

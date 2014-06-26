@@ -12,9 +12,9 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.Map.Entry;
 
-import net.minecraft.util.com.google.common.base.Charsets;
-import net.minecraft.util.com.google.common.collect.Lists;
-import net.minecraft.util.com.google.common.collect.Maps;
+import com.google.common.base.Charsets;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

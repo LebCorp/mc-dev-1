@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import net.minecraft.util.org.apache.commons.lang3.ObjectUtils;
+import org.apache.commons.lang3.ObjectUtils;
 
 public class DataWatcher {
 

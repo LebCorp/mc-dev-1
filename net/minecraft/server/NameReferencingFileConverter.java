@@ -14,11 +14,11 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
 
-import net.minecraft.util.com.google.common.base.Charsets;
-import net.minecraft.util.com.google.common.collect.Iterators;
-import net.minecraft.util.com.google.common.collect.Lists;
-import net.minecraft.util.com.google.common.collect.Maps;
-import net.minecraft.util.com.google.common.io.Files;
+import com.google.common.base.Charsets;
+import com.google.common.collect.Iterators;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import com.google.common.io.Files;
 import net.minecraft.util.com.mojang.authlib.Agent;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
 import net.minecraft.util.com.mojang.authlib.ProfileLookupCallback;

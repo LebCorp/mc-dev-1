@@ -2,8 +2,8 @@ package net.minecraft.server;
 
 import java.io.IOException;
 
-import net.minecraft.util.com.google.common.collect.BiMap;
-import net.minecraft.util.io.netty.buffer.ByteBuf;
+import com.google.common.collect.BiMap;
+import io.netty.buffer.ByteBuf;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

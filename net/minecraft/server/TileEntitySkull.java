@@ -2,7 +2,7 @@ package net.minecraft.server;
 
 import java.util.UUID;
 
-import net.minecraft.util.com.google.common.collect.Iterables;
+import com.google.common.collect.Iterables;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
 import net.minecraft.util.com.mojang.authlib.properties.Property;
 

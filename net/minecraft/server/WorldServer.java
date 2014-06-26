@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
-import net.minecraft.util.com.google.common.collect.Lists;
+import com.google.common.collect.Lists;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

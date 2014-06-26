@@ -5,9 +5,9 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.UUID;
 
-import net.minecraft.util.com.google.common.collect.HashMultimap;
-import net.minecraft.util.com.google.common.collect.Multimap;
-import net.minecraft.util.com.google.common.collect.Sets;
+import com.google.common.collect.HashMultimap;
+import com.google.common.collect.Multimap;
+import com.google.common.collect.Sets;
 
 public class Item {
 

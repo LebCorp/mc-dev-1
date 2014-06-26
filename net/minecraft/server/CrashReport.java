@@ -11,8 +11,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import net.minecraft.util.org.apache.commons.io.IOUtils;
-import net.minecraft.util.org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

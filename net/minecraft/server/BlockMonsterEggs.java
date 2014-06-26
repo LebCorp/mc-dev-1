@@ -2,7 +2,7 @@ package net.minecraft.server;
 
 import java.util.Random;
 
-import net.minecraft.util.org.apache.commons.lang3.tuple.ImmutablePair;
+import org.apache.commons.lang3.tuple.ImmutablePair;
 
 public class BlockMonsterEggs extends Block {
 

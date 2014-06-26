@@ -17,16 +17,16 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
 
-import net.minecraft.util.com.google.common.base.Charsets;
-import net.minecraft.util.com.google.common.collect.Iterators;
-import net.minecraft.util.com.google.common.collect.Lists;
-import net.minecraft.util.com.google.common.collect.Maps;
-import net.minecraft.util.com.google.common.io.Files;
-import net.minecraft.util.com.google.gson.Gson;
-import net.minecraft.util.com.google.gson.GsonBuilder;
+import com.google.common.base.Charsets;
+import com.google.common.collect.Iterators;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import com.google.common.io.Files;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import net.minecraft.util.com.mojang.authlib.Agent;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
-import net.minecraft.util.org.apache.commons.io.IOUtils;
+import org.apache.commons.io.IOUtils;
 
 public class UserCache {
 

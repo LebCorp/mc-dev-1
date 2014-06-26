@@ -1,6 +1,6 @@
 package net.minecraft.server;
 
-import net.minecraft.util.org.apache.commons.lang3.tuple.ImmutablePair;
+import org.apache.commons.lang3.tuple.ImmutablePair;
 
 public class EntitySilverfish extends EntityMonster {
 

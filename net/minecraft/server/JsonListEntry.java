@@ -1,6 +1,6 @@
 package net.minecraft.server;
 
-import net.minecraft.util.com.google.gson.JsonObject;
+import com.google.gson.JsonObject;
 
 public class JsonListEntry {
 

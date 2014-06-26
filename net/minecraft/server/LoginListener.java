@@ -7,10 +7,10 @@ import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.crypto.SecretKey;
 
-import net.minecraft.util.com.google.common.base.Charsets;
+import com.google.common.base.Charsets;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
-import net.minecraft.util.io.netty.util.concurrent.GenericFutureListener;
-import net.minecraft.util.org.apache.commons.lang3.Validate;
+import io.netty.util.concurrent.GenericFutureListener;
+import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

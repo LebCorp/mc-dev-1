@@ -9,10 +9,10 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.minecraft.util.com.google.common.collect.Sets;
+import com.google.common.collect.Sets;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
-import net.minecraft.util.io.netty.buffer.Unpooled;
-import net.minecraft.util.org.apache.commons.io.Charsets;
+import io.netty.buffer.Unpooled;
+import org.apache.commons.io.Charsets;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -2,10 +2,10 @@ package net.minecraft.server;
 
 import java.io.IOException;
 
-import net.minecraft.util.com.google.common.collect.BiMap;
-import net.minecraft.util.io.netty.buffer.ByteBuf;
-import net.minecraft.util.io.netty.channel.ChannelHandlerContext;
-import net.minecraft.util.io.netty.handler.codec.MessageToByteEncoder;
+import com.google.common.collect.BiMap;
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.MessageToByteEncoder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;

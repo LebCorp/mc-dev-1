@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import net.minecraft.util.com.google.gson.JsonObject;
+import com.google.gson.JsonObject;
 
 public abstract class ExpirableListEntry extends JsonListEntry {
 

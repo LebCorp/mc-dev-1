@@ -1,8 +1,8 @@
 package net.minecraft.server;
 
-import net.minecraft.util.com.google.common.collect.HashMultiset;
-import net.minecraft.util.com.google.common.collect.Iterables;
-import net.minecraft.util.com.google.common.collect.Multisets;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Iterables;
+import com.google.common.collect.Multisets;
 
 public class ItemWorldMap extends ItemWorldMapBase {
 

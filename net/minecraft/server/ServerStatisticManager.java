@@ -10,13 +10,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import net.minecraft.util.com.google.common.collect.Maps;
-import net.minecraft.util.com.google.common.collect.Sets;
-import net.minecraft.util.com.google.gson.JsonElement;
-import net.minecraft.util.com.google.gson.JsonObject;
-import net.minecraft.util.com.google.gson.JsonParseException;
-import net.minecraft.util.com.google.gson.JsonParser;
-import net.minecraft.util.org.apache.commons.io.FileUtils;
+import com.google.common.collect.Maps;
+import com.google.common.collect.Sets;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
+import com.google.gson.JsonParser;
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

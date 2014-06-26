@@ -17,16 +17,16 @@ import java.util.UUID;
 import java.util.concurrent.Callable;
 import javax.imageio.ImageIO;
 
-import net.minecraft.util.com.google.common.base.Charsets;
+import com.google.common.base.Charsets;
 import net.minecraft.util.com.mojang.authlib.GameProfile;
 import net.minecraft.util.com.mojang.authlib.GameProfileRepository;
 import net.minecraft.util.com.mojang.authlib.minecraft.MinecraftSessionService;
 import net.minecraft.util.com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
-import net.minecraft.util.io.netty.buffer.ByteBuf;
-import net.minecraft.util.io.netty.buffer.ByteBufOutputStream;
-import net.minecraft.util.io.netty.buffer.Unpooled;
-import net.minecraft.util.io.netty.handler.codec.base64.Base64;
-import net.minecraft.util.org.apache.commons.lang3.Validate;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufOutputStream;
+import io.netty.buffer.Unpooled;
+import io.netty.handler.codec.base64.Base64;
+import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
